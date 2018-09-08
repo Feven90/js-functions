@@ -7,7 +7,7 @@ let bandNumber = 1
 let bandName;
 
 const takeNumber = (bandName) => {
- const bandString = `<h3>${bandNumber}. ${bandName}</h3>`;
+ const bandString = `<h3>${bandNumber} . ${bandName}</h3>`;
  bandNumber++;
  printToDom(bandString, 'bandz');
 };  // you should already have this function written from the class lecture

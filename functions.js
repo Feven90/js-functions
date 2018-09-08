@@ -1,8 +1,6 @@
 function nuggetizer(animal){
     return `${animal} stix`;
 }
-
-
 console.log('fish:', nuggetizer('fish'));
 console.log('cat:', nuggetizer('cat'));
 console.log('bear:', nuggetizer('bear'));
@@ -33,6 +31,8 @@ const numberAdder = (num) => {
 const printToDom = (stringToPrint, divId) => {
     const selectedDiv = document.getElementById(divId);
     selectedDiv.innerHTML += stringToPrint;
-}
+};
 numberAdder(22);
+
+
 
